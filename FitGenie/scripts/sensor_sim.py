@@ -1,6 +1,6 @@
 import time, random, requests, os
 
-API = os.getenv("API","http://localhost:5000")
+API = os.getenv("API","https://turbo-space-dollop-977gxxjj565qf95r9-5000.app.github.dev/")
 HEADERS = {"X-User-Id":"U123"}
 
 def push(metric, val):
